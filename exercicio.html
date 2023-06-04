@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+     background-color: #0899c5;
+    margin: auto;
+    width: 600px;
+        }
+    
+         
+        #barra_de_navegacao{
+         border-top: 8px;
+        background-color: #0dcfbf4f;
+        padding: 0px;
+        margin: 0px;
+        height: 40px;
+        float: left;
+        
+        }
+
+ #barra_de_navegacao ul{
+        list-style-type: none;
+         padding: 0px;
+        margin: 0px;
+    }
+ #barra_de_navegacao li{
+    float: left;
+    }
+
+    #barra_de_navegacao a{
+    padding: 10px;
+    text-decoration: none;
+}
+#barra_de_navegacao a:hover:not(.ativo){
+    background-color: #08c5bc;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+#imagem_homepage img{
+    width: 100%;
+}
+.texto_box p{
+    text-align: center;
+}
+.img_box2 h3{
+    text-align: center;
+}
+.img_box2 img{
+    width: 100%;
+    border-image: 10px;
+}
+#rodape_box{
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+    <table>
+                    <!-- Header = Cabeçalho -->
+        <tr>
+            <td id="cabeca_box">
+                <img src="/img/LOGO1.png" alt="imagemdologo" width="100px" height="50px">
+            </td>
+        </tr>
+        
+        <!-- Barra de Navegação -->
+        <tr>
+            <td id="barra_de_navegacao" colspan="2">
+                <ul>
+                    <li><a href="/exercicio.html">Início</a> </li>
+                    <li><a href="/contato.html">Contato</a> </li>
+                    <li> <a href="/quemsomosnos.html">Quem Somos</a></li>
+                </ul>
+            </td>
+        </tr>
+        <!-- imagem pós cabeçalho -->
+        <tr id="imagem_homepage">
+            <td colspan="2">
+            <img src="/img/inicio.png" alt="homepage">
+            </td>
+        </tr>
+        <!-- articlel = Conteúdo da página, Que pode conter algumas imagens e detalhes -->
+        <tr>
+            <td class="texto_box">
+                
+                <p>
+                    Bem-vindo ao All Phar Hotel! 
+                    Localizado no coração da cidade, nosso hotel oferece requinte, conforto e muitos serviços. 
+                    Quartos elegantes, restaurante premiado, spa de luxo e instalações modernas garantem uma estadia inesquecível.
+                    Venha desfrutar do melhor em hospitalidade de luxo.
+                </p>
+            </td>
+        </tr>
+        <tr>
+        <td class="img_box2">
+            <hr><hr>
+            <h3>Conheça nossos quartos</h3>
+            <img src="/img/quarto1.png" alt="quarto1">
+            <img src="/img/serviços.png" alt="servicos">
+        </td>
+    </tr>
+        <!-- footer = rodapé -->
+        <tr>
+                <td id="rodape_box" colspan="2">
+                    <p> Desenvolvido por Alex Moreira - 2023 </p>
+                </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
